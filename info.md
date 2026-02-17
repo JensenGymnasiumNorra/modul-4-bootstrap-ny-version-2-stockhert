@@ -23,9 +23,9 @@ Din uppgift är att styla sidan med hjälp av Bootstrap. Du har mer frihet i den
 
 ## TODO – Uppgifter
 
-- [ ] Styla **header**
-- [ ] Styla **nav**
-- [ ] Styla **footer**
+- [x] Styla **header**
+- [x] Styla **nav**
+- [x] Styla **footer**
 - [ ] Se till att sidan ser snygg ut oavsett skärmstorlek
 - [ ] Lägg till info om dina 3 favoriter inom film, musik och serier på respektive sidor
     - Du får lägga till fler än 3 på varje sida
