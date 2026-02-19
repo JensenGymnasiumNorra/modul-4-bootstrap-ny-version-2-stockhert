@@ -1,41 +1,123 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="series.html">Series</a></li>
-          <li><a href="music.html">Music</a></li>
-        </ul>
-      </nav>
-    </header>
+<body class="bg-dark bg-gradient d-flex flex-column min-vh-100">
 
-    <main>
-      <p>Artist 1</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
+<header>
+  <nav class="container shadow-lg bg-black bg-gradient p-2 text-white my-2 border border-2 border-light rounded-3 rounded-lg border-opacity-50">
+    <div>
+      <h1 class="display-5 fw-bold text-center">
+        shit i like
+      </h1>
+      <p class="text-center">
+        just some stuff
+      </p>
+    </div>
+    <ul class="navbar-nav gap-3 d-flex flex-row justify-content-center">
+      <li class="rounded-pill bg-dark bg-gradient border border-1 border-light border-opacity-25">
+        <a class="text-decoration-none text-white d-inline-block px-3 py-1" href="index.html">home</a>
+      </li>
+      <li class="rounded-pill bg-dark bg-gradient border border-1 border-light border-opacity-25">
+        <a class="text-decoration-none text-white d-inline-block px-3 py-1" href="movies.html">movies</a>
+      </li>
+      <li class="rounded-pill bg-dark bg-gradient border border-1 border-light border-opacity-25">
+        <a class="text-decoration-none text-white d-inline-block px-3 py-1" href="series.html">series</a>
+      </li>
+      <li class="rounded-pill bg-dark bg-gradient border border-1 border-light border-opacity-25">
+        <a class="text-decoration-none text-white d-inline-block fw-bold px-3 py-1" href="music.html">music</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
-      <p>Artist 2</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
+<main class="d-flex flex-grow-1 text-white text-center">
+  <div class="container text-center  border border-1 border-light rounded-3 p-4 bg-dark">
+    <div class="d-flex flex-column gap-3 mt-4">
+      <h2 class="fw-bold">Favourite artists</h2>
 
-      <p>Artist 3</p>
-      <p>Bästa låt:</p>
-      <p>Antal album:</p>
-    </main>
-    <footer>
-      <p>© 2026</p>
-    </footer>
-    <script src="init.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+      <!-- Weatherday -->
+      <div class="p-4 rounded-3 border border-light border-opacity-25 text-start d-flex flex-row gap-3">
+        <img src="weatherday.jpg" class="img-fluid rounded-3 w-25 align-self-start flex-shrink-0" alt="placeholder image">
+        <div>
+          <h3 class="fw-bold">Weatherday</h3>
+          <p>Slacker Rock, Emo, Noise Rock</p>
+
+          <p><span class="fw-bold">Albums: </span>
+            Come In <span class="opacity-25">(2019)</span>,
+            Hornet Disaster <span class="opacity-25">(2025)</span>
+          </p>
+
+          <p>
+            Weatherday is the indie-rock alias of artist 'Sputnik' from Sweden. They're first album 'Come In' was released on Bandcamp in 2019, followed by their second album 'Hornet Disaster' in 2025 with Topshelf Records.
+          </p>
+
+          <div>
+            Favorite Tracks:
+            <!-- Bandcamp Embed -->
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=299680390/size=small/bgcol=333333/linkcol=e32c14/track=2602163934/transparent=true/" seamless><a href="https://weatherornot.bandcamp.com/album/hornet-disaster">Hornet Disaster by Weatherday</a></iframe>
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=299680390/size=small/bgcol=333333/linkcol=e32c14/track=2062562739/transparent=true/" seamless><a href="https://weatherornot.bandcamp.com/album/hornet-disaster">Hornet Disaster by Weatherday</a></iframe>
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1527935166/size=small/bgcol=333333/linkcol=e32c14/track=3701516072/transparent=true/" seamless><a href="https://weatherornot.bandcamp.com/album/come-in">Come in by Weatherday</a></iframe>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Duster -->
+      <div class="p-4 rounded-3 border border-light border-opacity-25 text-start d-flex flex-row gap-3">
+        <img src="weatherday.jpg" class="img-fluid rounded-3 w-25 align-self-start flex-shrink-0" alt="placeholder image">
+        <div>
+          <h3 class="fw-bold">Duster</h3>
+          <p>Slowcore, Slacker rock, Space Rock Revival</p>
+
+          <p><span class="fw-bold">Albums: </span>
+            Stratosphere <span class="opacity-25">(1998)</span>,
+            Contemporary Movement <span class="opacity-25">(2000)</span>,
+            Duster <span class="opacity-25">(2019)</span>,
+            Together <span class="opacity-25">(2022)</span>,
+            In Dreams <span class="opacity-25">(2024)</span>
+          </p>
+
+          <p>
+            Weatherday is a idk
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Cynthoni -->
+      <div class="p-4 rounded-3 border border-light border-opacity-25 text-start d-flex flex-row gap-3">
+        <img src="weatherday.jpg" class="img-fluid rounded-3 w-25 align-self-start flex-shrink-0" alt="placeholder image">
+        <div>
+          <h3 class="fw-bold">Cynthoni</h3>
+          <p>Atmospheric Drum and Bass, Neurofunk, Hard Trance</p>
+
+          <p><span class="fw-bold">Albums: </span>
+            Draining Love Story (In the Eyes of Cynthoni) <span class="opacity-25">(2025)</span>,
+            Lamenting Malice <span class="opacity-25">(2025)</span>
+          </p>
+
+          <p>
+            Cynthoni is the follow-up project of wildly successful breakcore artist 'Sewerslvt'. They debuted with their EP 'Sewerslvt Presents: Cynthoni Pt. 1' in 2024.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="container text-center my-4 text-white text-opacity-25">
+  <p>Harry Martin © 2026</p>
+</footer>
+
+<script src="init.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
 </html>
